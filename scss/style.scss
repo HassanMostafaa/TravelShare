@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 600px;
     position: relative;
 
     .media {
@@ -70,7 +70,7 @@
     }
 
     .hero {
-        margin-top: 150px;
+        margin-top: 250px;
         color: #eee;
         margin-left: 50px;
         font-size: 30px;
@@ -106,7 +106,7 @@
         justify-content: space-between;
         align-items: center;
         background-color: rgb(94, 72, 54);
-        width: 700px;
+        width: 50%;
 
         position: relative;
 
@@ -152,18 +152,24 @@
 
         .main-txt {
             font-size: 30px;
-            padding-bottom: 15px;
+            padding-bottom: 5px;
         }
 
         .title {
-            margin-top: 10px;
+            width: 25%;
+            margin-top: 5px;
             font-size: 18px;
             margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
         }
 
         img {
             margin: 0 20px 0 0;
         }
+    }
+
+    .number2 {
+        background-color: rgb(133, 103, 79);
     }
 
     .left-card {
@@ -243,6 +249,23 @@
         display: none;
     }
 
+    .two-cards-section .right-card {
+        text-align: center;
+        width: 100%;
+    }
+
+    .two-cards-section .right-card .text .title {
+        text-align: center;
+        width: 100%;
+        border-bottom: none;
+        margin: 20px 0;
+    }
+
+    .text {
+        margin: 0;
+    }
+
+
 
 }
 
@@ -257,9 +280,9 @@
         margin: 10px;
     }
 
-    nav .logo {
-        font-size: 16px;
-        margin: 10px;
+    .bg-img nav .logo {
+        margin: 20px auto;
+
     }
 
     .col {
@@ -267,13 +290,6 @@
     }
 
 
-    .right-card {
-        text-align: center;
-    }
-
-    .text {
-        margin: 0;
-    }
 
     .two-cards-section .left-card {
         text-align: center;
